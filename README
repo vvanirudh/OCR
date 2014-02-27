@@ -1,0 +1,54 @@
+project name: Optical Character Recognition
+Team member 1: Anirudh V
+Team Member 2: Vinod Reddy K
+
+-------------------------------------------------------------------------------------------------------------
+HOW TO COMPILE
+
+Type make when you are in the subdirectory where code is present
+$ make
+
+-------------------------------------------------------------------------------------------------------------
+HOW TO TRAIN
+
+type 
+$ ./train trainfile.txt < input.txt
+
+-------------------------------------------------------------------------------------------------------------
+HOW TO RECOGNIZE 
+
+type
+$ ./recog [testimage]
+
+-------------------------------------------------------------------------------------------------------------
+INPUT FILES
+
+1. input.txt : This file contains the characters present in the training images.
+2. trainfile.txt : This file contains the number of training images in the first line and names of the training images in subsequent lines
+
+-------------------------------------------------------------------------------------------------------------
+TEST IMAGES (Source of all images: Google Images)
+
+1. anumbers.png
+2. number.png
+3. numbers.png
+4. snumber.png
+5. mixed.jpg
+6. alphabets2.jpg
+7. handwritten.png
+8. alphabets.png
+9. ocr.png
+-------------------------------------------------------------------------------------------------------------
+FILES USED TO STORE FEATURE VECTORS AND LABELS
+
+1. vectors.txt : This file contains the feature vectors of all the training images.
+2. labels.txt : This file contains the labels of all the training images.
+
+-------------------------------------------------------------------------------------------------------------
+TRAINING IMAGES THAT WE TRAINED UPON
+
+1. all.png
+2. all2.png
+3. all3.png
+
+A total of 1086 characters. We disregard capitals and train capitals also as small letters.
